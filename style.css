@@ -1,16 +1,82 @@
 /* Type your code here */
 
+body {
+	background-image: url(./assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+a * {
+
+	text-decoration: none;
+	text-decoration: solid;
+	cursor: pointer;
+}
+
+#main-grid-container {
+	display: grid;
+	grid-template-columns: 80% 20%;
+	grid-auto-rows: minmax(0px, auto);
+	list-style: none;
+}
+
+#logo {
+	align-items: baseline;
+}
+
+#title-name * {
+	margin-top: 2%;
+	font-size: 1.5em;
+	display: flex;
+	background-color: white;
+}
+
+.heading * {
+	align-items: start;
+	padding: 1%;
+	display: grid;
+	grid-template-columns: 7fr 1fr;
+	font-size: 1.1em;
+	color: white;
+	background-color: red;
+}
+
+
+.nested-grid * {
+	display: grid;
+	grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr 1fr;
+	font-size: 1.06em;
+	background-color: white;
+	border-bottom-style: groove;
+}
+
+li * {
+	padding: 0px;
+	list-style: none;
+}
+
+#table-header * {
+	background-color: ghostwhite;
+}
+
+.total * {
+	display: grid;
+	grid-template-columns: 6fr 1fr;
+	font-size: 1.1em;
+	background-color: white;
+	border-bottom-style: groove;
+}
 
 /* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
+.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
 	position: relative;
 	top: 750px;
 	margin-left: 80px;
 	font-size: 18px;
 	font-family: Nunito Sans;
-    font-style: normal;
-    
+	font-style: normal;
+
 }
